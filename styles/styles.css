@@ -1100,6 +1100,48 @@ section {
     padding-top: 3rem;
   }
 }
+@media screen and (max-width: 700px) {
+  .name {
+    animation: none; /* Remove animation for phones or screens with a width of 470px or less */
+    border-right: none; /* Remove border for phones */
+  }
+  .container {
+    padding: 7rem 3rem;
+  }
+
+  .about-stats .progress-bars {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .about-container .right-about {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .timeline {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .main-title h2 {
+    font-size: 3rem;
+  }
+  .main-title h2 span {
+    font-size: 3rem;
+  }
+  .main-title h2 .bg-text {
+    font-size: 4rem;
+  }
+}
+
+
+  /* Adjust the back-and-forth animation for smaller screens */
+  @keyframes backAndForth {
+    0%, 100% {
+      width: 100%;
+    }
+    25%, 75% {
+      width: 0;
+    }
+  }
 
 @media screen and (max-width: 600px) {
   /* Mobile styles */
@@ -1254,12 +1296,12 @@ section {
       }
 
       &::before {
-          display: none; /* Removed the pseudo-element for smaller screens */
+          display: none; 
       }
 
       &:hover {
           &::before {
-              display: none; /* Removed the hover effect for smaller screens */
+              display: none;
           }
       }
 
@@ -1270,6 +1312,8 @@ section {
       display: none; 
   }
 }
+
+
 
 }
 
