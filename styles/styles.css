@@ -706,8 +706,8 @@ section {
 
 @media screen and (max-width: 470px) {
   .name {
-    animation: none; /* Remove animation for phones or screens with a width of 470px or less */
-    border-right: none; /* Remove border for phones */
+    animation: none;
+    border-right: none; 
   }
   header {
     padding: 0 !important;
@@ -847,8 +847,8 @@ section {
 }
 @media screen and (max-width: 576px) {
   .name {
-    animation: none; /* Remove animation for phones or screens with a width of 470px or less */
-    border-right: none; /* Remove border for phones */
+    animation: none; 
+    border-right: none; 
   }
   header {
     padding: 0 !important;
@@ -861,7 +861,7 @@ section {
 
   .header-content {
     grid-template-columns: repeat(1, 1fr);
-    padding-bottom: 4rem; /* Adjusted padding */
+    padding-bottom: 4rem;  
   }
 
   .left-header .h-shape {
@@ -871,19 +871,19 @@ section {
   .right-header {
     grid-row: 1;
     padding-right: 0 !important;
-    width: 100%; /* Adjusted width */
+    width: 100%;  
     margin: 0 auto;
   }
 
   .right-header .name {
     font-size: 2.5rem !important;
     text-align: center;
-    padding-top: 2rem; /* Adjusted padding */
+    padding-top: 2rem;  
   }
 
   .header-content .left-header .image {
     margin: 0 auto;
-    width: 80%; /* Adjusted width */
+    width: 80%;  
   }
 
   .controls {
@@ -898,7 +898,7 @@ section {
   }
 
   .controls .control {
-    margin: 1rem 0.5rem; /* Adjusted margin */
+    margin: 1rem 0.5rem;  
   }
 
   .about-container {
@@ -907,7 +907,7 @@ section {
 
   .about-container .right-about {
     grid-template-columns: repeat(1, 1fr);
-    padding-top: 2rem; /* Adjusted padding */
+    padding-top: 2rem;  
   }
 
   .about-container .left-about {
@@ -920,11 +920,11 @@ section {
 
   .timeline {
     grid-template-columns: repeat(1, 1fr);
-    padding-bottom: 4rem; /* Adjusted padding */
+    padding-bottom: 4rem;  
   }
 
   .container {
-    padding: 2rem 1.5rem !important; /* Adjusted padding */
+    padding: 2rem 1.5rem !important;  
   }
 
   .about-stats .progress-bars {
@@ -933,13 +933,13 @@ section {
 
   .portfolios {
     grid-template-columns: repeat(1, 1fr);
-    padding-bottom: 4rem; /* Adjusted padding */
+    padding-bottom: 4rem;  
     margin-top: 1rem;
   }
 
   .blogs {
     grid-template-columns: repeat(1, 1fr);
-    padding-bottom: 4rem; /* Adjusted padding */
+    padding-bottom: 4rem;  
   }
 
   .contact-content-con {
@@ -948,7 +948,7 @@ section {
 
   .contact-content-con .right-contact {
     margin-left: 0;
-    margin-top: 1.5rem; /* Adjusted margin */
+    margin-top: 1.5rem;  
   }
 
   .contact-content-con .right-contact .i-c-2 {
@@ -957,25 +957,25 @@ section {
 
   .contact-content-con .right-contact .i-c-2 :last-child {
     margin-left: 0;
-    margin-top: 1rem; /* Adjusted margin */
+    margin-top: 1rem;  
   }
 
   .contact-content-con .right-contact {
-    margin-bottom: 4rem; /* Adjusted margin */
+    margin-bottom: 4rem;  
   }
 
   .contact-item {
     flex-direction: column;
-    margin: 0.5rem 0; /* Adjusted margin */
+    margin: 0.5rem 0;  
   }
 
   .contact-item p {
-    font-size: 14px; /* Adjusted font size */
+    font-size: 14px;  
     color: var(--color-grey-2);
   }
 
   .contact-item span {
-    font-size: 14px; /* Adjusted font size */
+    font-size: 14px;  
   }
 
   .contact-item .icon {
@@ -983,15 +983,15 @@ section {
   }
 
   .main-title h2 {
-    font-size: 1.8rem; /* Adjusted font size */
+    font-size: 1.8rem;  
   }
 
   .main-title h2 span {
-    font-size: 2rem; /* Adjusted font size */
+    font-size: 2rem; 
   }
 
   .main-title h2 .bg-text {
-    font-size: 2rem; /* Adjusted font size */
+    font-size: 2rem; 
   }
 }
 
@@ -1102,8 +1102,8 @@ section {
 }
 @media screen and (max-width: 700px) {
   .name {
-    animation: none; /* Remove animation for phones or screens with a width of 470px or less */
-    border-right: none; /* Remove border for phones */
+    animation: none; 
+    border-right: none; 
   }
   .container {
     padding: 7rem 3rem;
@@ -1133,15 +1133,6 @@ section {
 }
 
 
-  /* Adjust the back-and-forth animation for smaller screens */
-  @keyframes backAndForth {
-    0%, 100% {
-      width: 100%;
-    }
-    25%, 75% {
-      width: 0;
-    }
-  }
 
 @media screen and (max-width: 600px) {
   /* Mobile styles */
@@ -1200,8 +1191,8 @@ section {
 
 @media screen and (max-width: 970px) {
   .name {
-    animation: none; /* Remove animation for phones or screens with a width of 470px or less */
-    border-right: none; /* Remove border for phones */
+    animation: none; 
+    border-right: none; 
   }
   /* Tablet styles */
   .container {
@@ -1239,59 +1230,54 @@ section {
   
   @media screen and (max-width: 375px) {
     .name {
-      animation: none; /* Remove animation for phones or screens with a width of 470px or less */
-      border-right: none; /* Remove border for phones */
+      animation: none; 
+      border-right: none; 
     }
     .main-btn {
       display: none;
       
       
       .btn-text {
-        padding: 0.3rem; /* Adjusted text padding */
-        margin-right: 1.1rem; /* Adjusted margin between text and icon */
+        padding: 0.3rem; 
+        margin-right: 1.1rem; 
       }
   
       .btn-icon {
-        font-size: 1.8rem; /* Adjusted icon size */
-        margin-left: 0.3rem; /* Adjusted margin between text and icon */
+        font-size: 1.8rem; 
+        margin-left: 0.3rem; 
     }
   
       &::before {
-        display: none; /* Removed the pseudo-element for smaller screens */
+        display: none; 
       }
   
       &:hover {
         &::before {
-          display: none; /* Removed the hover effect for smaller screens */
+          display: none; 
         }
       }
   
-      margin-bottom: 15px; /* Adjusted space between buttons */
+      margin-bottom: 15px; 
     }
   
     .other-btn {
-      display: none; /* Hide the other button */
+      display: none; 
     }
   }
   
 
 @media screen and (max-width: 470px) {
   .main-btn {
-    
-      /*border-radius: 20px; /* Adjusted border radius for a smaller button 
-      font-weight: 200; /* Adjusted font weight for a lighter appearance 
-      align-items: center;
-      width: 40%; /* Adjusted width to fit both buttons in one line */
       display: flex;
 
       .btn-text {
-          padding: 0.9rem; /* Adjusted text padding */
-          margin-right: 0.2rem; /* Adjusted margin between text and icon */
+          padding: 0.9rem; 
+          margin-right: 0.2rem; 
       }
 
       .btn-icon {
-          display: contents; /* Removed the icon */
-          font-size: 1rem; /* Adjusted icon size */
+          display: contents; 
+          font-size: 1rem; 
           margin-left: 0.2rem;
       }
 
@@ -1301,7 +1287,7 @@ section {
 
       &:hover {
           &::before {
-              display: none;
+              display: none; 
           }
       }
 
@@ -1316,9 +1302,3 @@ section {
 
 
 }
-
-
-
-  
-
-
