@@ -22,7 +22,7 @@
 }
 
 .light-mode {
-  --color-primary: rgb(228, 225, 222);
+  --color-primary: rgb(253, 251, 249);
   --color-secondary: #95959e;
   --color-white: #2b2b2c;
   --color-black: #000;
@@ -505,6 +505,8 @@ section {
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
   transition: all 0.4s ease-in-out;
+  transform: scale(0.9); /* Scale down the image slightly */
+  /* Adjust the scale value (0.9) as needed for more or less zoom */
 }
 .blogs .blog .blog-text {
   margin-top: -7px;
